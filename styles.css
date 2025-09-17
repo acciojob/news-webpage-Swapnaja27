@@ -1,1 +1,71 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#f5f5f5;
+}
+.header{
+	background-color:#011e29;
+    text-align:center;
+	padding:15px 0;
+	font-size:28px;
+	font-weight:bold;
+	color:white;
+}
+.container{
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr; /* left:1, center:2, right:1 */
+      gap: 5px;
+      width: 90%;
+      /* max-width: 1200px; */
+      margin: 5px auto;
+}
+    /* Each section box */
+    .latest-news-section {
+      background-color: white;
+      padding: 10px;
+      border-radius: 12px;
+	  font-size:10px;
+	  height:100px;
+	  
+    }
+
+    .latest-news-section h2 {
+      font-size: 15px;
+      margin-bottom:5px;
+    }
+
+    /* Latest news */
+    ul {
+      padding-left: 20px;
+    }
+
+    /* Main article */
+    .main-article {
+      text-align: center;
+	  background-color:white;
+	  border-radius: 12px;
+	  font-size:10px;
+	  padding:10px;
+	  height:180px;
+    }
+
+    .main-article h2 {
+      font-weight: bold;
+	  font-size:20px;
+    }
+
+    /* Pictorial news */
+    .pictorial-news-section{
+		background-color:white;
+		border-radius: 12px;
+	}
+    .pictorial-news-section h2{
+		font-size:15px;
+		padding:10px;
+	}
+    .pictorial-news-section img {
+      width: 80%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 15px;
+	  padding:0px 15px;
+    }
